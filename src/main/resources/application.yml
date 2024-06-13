@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: ${profile}
+
+logging:
+  file:
+    name: "/var/log/@project.artifactId@/@project.artifactId@.log"
+  level:
+    root: INFO

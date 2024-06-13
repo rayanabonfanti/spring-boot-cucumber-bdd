@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: ${profile}
+
+logging:
+  file:
+    name: "/var/log/desafio-serasa-experian/desafio-serasa-experian.log"
+  level:
+    root: INFO
